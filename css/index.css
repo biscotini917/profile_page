@@ -1,0 +1,35 @@
+Header {
+  text-align: center;
+  background: url("http://www.dapperguide.com/wp-content/uploads/2015/12/kamakura-beach-surfboard.jpg");
+  background size: cover;
+  height: 50px;
+  color: pink;
+  font-family: arial;
+ }
+
+#profile_image {
+  height: 200px;
+  margin:0px;
+  border:10px solid white;
+  border-radius: 20px;
+}
+
+body {
+  text-align: center;
+}
+
+#about_me {
+  color: black;
+  font-family: arial;
+ }
+
+ul {
+  padding: 10px;
+  background: rgb(33, 33, 151);
+}
+
+li {
+display: inline;
+padding: 0px;
+font-size: 30px;
+}
