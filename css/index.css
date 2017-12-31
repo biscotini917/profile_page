@@ -1,11 +1,29 @@
-Header {
+header {
+  background: url("../img/profile_image.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+#title {
   text-align: center;
-  background: url("http://www.dapperguide.com/wp-content/uploads/2015/12/kamakura-beach-surfboard.jpg");
-  background size: cover;
-  height: 50px;
-  color: pink;
-  font-family: arial;
- }
+  font-size: 50px;
+  font-weight: 500;
+  color:white;
+  display: inline-block;
+  padding: .2em .2em;
+  border: white solid 4px;
+  letter-spacing: .05em;
+  margin-top: 70px;
+  margin-bottom: 15px;
+  clear: both;
+}
+
+#kicker {
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  letter-spacing: .05em;
+}
 
 #profile_image {
   height: 200px;
@@ -21,15 +39,12 @@ body {
 #about_me {
   color: black;
   font-family: arial;
- }
-
-ul {
-  padding: 10px;
-  background: rgb(33, 33, 151);
 }
-
-li {
-display: inline;
-padding: 0px;
-font-size: 30px;
+nav {
+  background: rgb(2, 2, 70);
+}
+nav a {
+  padding: 20px;
+  font-size: 25px;
+  color: white;
 }
